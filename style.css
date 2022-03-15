@@ -207,8 +207,11 @@ section .title::after{
     background: none;
 }
 /* services section styling */
-.services{
+.services, .contact{
     color:#fff;
+    background: #111;
+}
+.contact h2.title::after{
     background: #111;
 }
 .services .title::before{
@@ -420,7 +423,7 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: #292929;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -432,6 +435,7 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
